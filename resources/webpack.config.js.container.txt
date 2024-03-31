@@ -22,10 +22,11 @@ plugins : [
             template : './public/index.html'
         }),
         new ModuleFederationPlugin({
-            name : 'xxx',
-            filename : 'remoteEntry.js',
-            exposes :
-                {'./Xxx' : './src/xxx'}
+            name : 'container',
+            remotes : {
+                xxx: 'xxx@http://xxx/remoteEntry.js'
+            },
+            shared : ['react', 'react-dom']
         }
         )
     ],
