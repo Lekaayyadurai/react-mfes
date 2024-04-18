@@ -1,4 +1,1 @@
-    "webpack-cli": "^5.1.0",
-    "webpack-merge": "^5.10.0",
-    "html-webpack-plugin": "^5.5.0",
-    "ts-loader": "^9.1.2"
+npm install -D webpack-cli, webpack-merge, html-webpack-plugin, ts-loader, style-loader, css-loader

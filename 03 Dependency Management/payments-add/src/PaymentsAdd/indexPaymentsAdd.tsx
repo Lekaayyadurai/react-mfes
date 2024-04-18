@@ -1,10 +1,10 @@
-import {createRoot} from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import './../index.css';
 import PaymentsAdd from './PaymentsAdd';
 
 const mount = (el: Element) : void => {
 
-  const root = createRoot(el);
+  const root : ReactDOM.Root = ReactDOM.createRoot(el);
 
   root.render(<PaymentsAdd />);
 }

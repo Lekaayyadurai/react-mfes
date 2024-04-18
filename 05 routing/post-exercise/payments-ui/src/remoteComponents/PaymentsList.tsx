@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
-import {mount} from 'paymentslist/PaymentsList';
-import { useLocation, useNavigate } from 'react-router-dom';
+import  { useEffect, useRef, useState } from 'react';
+import {mount} from 'payments_list/PaymentsList';
+import { useNavigate } from 'react-router-dom';
 
 const PaymentsList = () : JSX.Element => {
 

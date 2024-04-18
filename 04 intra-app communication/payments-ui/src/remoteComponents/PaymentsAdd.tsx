@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import {mount} from 'paymentsadd/PaymentsAdd';
+import { useEffect, useRef } from 'react';
+import {mount} from 'payments_add/PaymentsAdd';
 
 const PaymentsAdd = () : JSX.Element => {
 

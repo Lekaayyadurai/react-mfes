@@ -1,6 +1,5 @@
 import {createRoot} from 'react-dom/client';
 import './../index.css';
-import PaymentsList from './PaymentsList';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import FindTransactionPage from './FindTransactionPage';
 

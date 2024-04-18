@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import PaymentTableRow from "./PaymentTableRow";
 import "./Transactions.css";
-import { useLocation, useParams, useSearchParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 import { PaymentType, getAllPaymentsForCountry, getAllPaymentsForOrderId, getCountries } from "../dataFunctions";
 
 const Transactions = (props: TransactionsProps): JSX.Element => {

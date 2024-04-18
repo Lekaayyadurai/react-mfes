@@ -1,6 +1,4 @@
-import React from 'react';
 import './App.css';
-import PaymentsList from './PaymentsList/PaymentsList';
 import FindTransactionPage from './PaymentsList/FindTransactionPage';
 import { BrowserRouter } from 'react-router-dom';
 

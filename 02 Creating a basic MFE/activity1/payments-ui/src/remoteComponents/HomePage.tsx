@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import {mount} from 'staticpages/HomePage';
+import { useEffect, useRef } from 'react';
+import {mount} from 'static_pages/HomePage';
 
 const HomePage = () : JSX.Element => {
 

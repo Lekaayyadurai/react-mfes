@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PaymentsAdd from './remoteComponents/PaymentsAdd';
 import PaymentsList from './remoteComponents/PaymentsList';

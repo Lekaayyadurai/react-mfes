@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useRef, useState } from 'react';
-import {mount} from 'staticpages/HomePage';
+import { useContext, useEffect, useRef } from 'react';
+import {mount} from 'static_pages/HomePage';
 import { UserContext, homepageMountReturnType, userContextType, userType } from '../context/context';
 
 const HomePage = () : JSX.Element => {
@@ -28,4 +28,3 @@ const HomePage = () : JSX.Element => {
 }
 
 export default HomePage;
-

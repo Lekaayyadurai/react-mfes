@@ -1,4 +1,4 @@
-import ReactDom, { Root } from 'react-dom/client';
+import ReactDom from 'react-dom/client';
 import './../index.css';
 import HomePage, { HomePageProps } from './HomePage';
 
@@ -11,7 +11,6 @@ const mount = (el: Element, props: HomePageProps) : mountReturnType => {
   root.render(<HomePage {...props} />);
 
   const parentLoginStateChanged = (newId : number) => {
-    console.log("rerendering");
     root.render(<HomePage {...props} id = {newId} />);
   }
 

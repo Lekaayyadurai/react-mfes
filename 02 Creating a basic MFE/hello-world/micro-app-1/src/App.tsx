@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './HelloWorld/HelloWorld';
 
@@ -11,6 +9,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

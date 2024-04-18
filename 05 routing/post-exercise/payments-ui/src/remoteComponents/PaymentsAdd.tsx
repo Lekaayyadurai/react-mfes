@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import {mount} from 'paymentsadd/PaymentsAdd';
+import { useEffect, useRef } from 'react';
+import {mount} from 'payments_add/PaymentsAdd';
 import { useNavigate } from 'react-router-dom';
 
 const PaymentsAdd = () : JSX.Element => {

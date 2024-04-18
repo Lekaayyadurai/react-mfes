@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import AddTransaction from './PaymentsAdd/AddTransaction';
 

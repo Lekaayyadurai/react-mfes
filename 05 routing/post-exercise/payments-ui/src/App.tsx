@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 import PaymentsAdd from './remoteComponents/PaymentsAdd';
 import PaymentsList from './remoteComponents/PaymentsList';
@@ -12,6 +11,7 @@ import { UserContext, userType } from './context/context';
 function App() {
 
 const [user,setUser] = useState<userType>( {id: 0, name : "", role : ""});
+
 
  const logout = () => {
       setUser({id: 0, name : "", role : ""});
